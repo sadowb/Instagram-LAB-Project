@@ -1,0 +1,56 @@
+
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.wrapper p {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.user_image {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.Icon {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.heart_icon,
+.chat_icon {
+  cursor: pointer;
+  transition: color 0.3s ease;
+  color: white;
+}
+
+.heart_icon:hover,
+.chat_icon:hover {
+  color: red;
+}
+
+.comments_section {
+  margin-top: 10px;
+}
+
+.comments_section h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.comments_section p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: white;
+}
